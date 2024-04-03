@@ -1,12 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tarea1</title>
+<style>
+    body {
+        font-family: 'Times New Roman', Times, serif, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    header {
+        text-align: center;
+        margin-top: 20px;
+    }
+    section {
+        margin-top: 20px;
+    }
+    section > h2 {
+        font-size: 20px;
+        font-weight: bold;
+        border-bottom: 1px solid #000;
+        margin-bottom: 10px;
+    }
+    .experience-item, .education-item, .interests-item {
+        margin-bottom: 15px;
+    }
+    .bold {
+        font-weight: bold;
+    }
+    footer {
+        text-align: center;
+        padding: 10px;
+        margin-top: 20px;
+        border-top: 1px solid #000;
+    }
+</style>
 </head>
 <body>
-    <h1>Tarea1</h1>
-    <h2>Suerte</h2>
+<div class="container">
+    <header>
+        <h1>Danny Wu</h1>
+        <p>Hacienda las Fuentes 201, Monterrey NL 66477 | (+52) 81-2902-2919</p>
+    </header>
+    <section>
+        <h2>Habiliadades</h2>
+        <p>Algunos lenguajes de programacion que conozco.</p>
+        <ul>
+            <li>C++</li>
+            <li>CSS</li>
+            <li>Python</li>
+            <li>HTML</li>
+            <li>JavaScript</li>
+        </ul>
+        <p>Tambien tengo experiencia con redes neuronales y deteccion de objetos,
+            de igual manera estoy empezando a trabajar con ROS Melodic.</p>
+        <p>Algunas de mis cualidades son.</p>
+        <ul>
+            <li>Me adapto rapido</li>
+            <li>Me gusta aprender cosas nuevas</li>
+            <li>Soy organizado</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Experiencia</h2>
+        <article class="experience-item">
+            <h3 class="bold">2023-presente</h3>
+            <p>Miembro de VANTTec (Vehiculos Autonomos No Tripulados TEC) y Encargado de una de las areas</p>
+        </article>
+        <article class="experience-item">
+            <h3 class="bold">2023</h3>
+            <p>Cursos que he tomado y completado.</p>
+            <ul>
+                <li>Curso de introduccion a la Inteligencia Artificial</li>
+                <li>Curso de HTML, CSS, JavaScript</li>
+                <li>Curso de C++</li>
+            </ul>
+        </article>
+    </section>
+    <section>
+        <h2>Educacion</h2>
+        <article class="education-item">
+            <h3 class="bold">2022-presente</h3>
+            <p>Cursando mi titulo profesional en el Instituto Tecnologico y de Estudios Superiores de Monterrey</p>
+        </article>
+    </section>
+    <section>
+        <h2>Intereses</h2>
+        <p>Algunas de las cosas que me interesan son.</p>
+        <ul>
+            <li>Desarrollo de Software</li>
+            <li>Inteligencia Artificial</li>
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; Danny Wu. All rights reserved.</p>
+    </footer>
+</div>
 </body>
 </html>
+
+
+
