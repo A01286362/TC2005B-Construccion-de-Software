@@ -1,0 +1,21 @@
+
+.barra-navegacion ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.barra-navegacion a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.5s;
+}
+
+.barra-navegacion a:hover {
+    color: blue;
+}
+
+
